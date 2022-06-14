@@ -28,6 +28,14 @@ At a high-level, the airflow orchestrates the following tasks:
 
 ## Dashboard 
 
+
+https://user-images.githubusercontent.com/91481367/173519631-643e2bb0-48af-47fd-9878-e88f04692eb8.mp4
+<p align="left">    
+<img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Tableau/GLOBAL.png">
+<img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Tableau/INDIA.png">
+<img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Tableau/CONTINENT.png">
+<img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Tableau/TOP%20COUNTRY.png">
+</p>
 ## Setup
 
 ## References
