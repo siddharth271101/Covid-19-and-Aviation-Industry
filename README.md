@@ -6,8 +6,9 @@ Aviation provides the only rapid worldwide transportation network, which makes i
 This project aims to analyse the impact of Covid-19 on the aviation industry. It also provided a great opportunity to develop skills and experience in a range of tools such as Apache Airflow, Apache Spark, Tableau and some of the AWS cloud services.
 
 ## Architecture
+
 <p align="left">
-    <img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/architecture.png">
+    <img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Final-architecture.png">
 </p>
 
 ## Airflow Data Pipeline
@@ -66,6 +67,8 @@ Airflow orchestrates the following tasks:
 
 ![India gif](https://user-images.githubusercontent.com/91481367/173548616-e16ec8b7-9cb9-4e13-9c98-005c99466a18.gif)
 
+Find the entire analysis [here](https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/Tableau/Final.pdf)
+
 ## Setup
 ### 1. Prerequisite
 
@@ -111,5 +114,10 @@ Open the Airflow UI by hitting [http://localhost:8080](http://localhost:8080/) i
 ### 4. AWS
 
 Once the dag-run is successful, check the output folder of the S3 bucket.
+
+<p align="left">
+    <img src="https://github.com/siddharth271101/Covid-19-and-Aviation-Industry/blob/main/assets/images/S3_outputdir.png">
+</p>
+
 This [blog](https://aws.amazon.com/blogs/big-data/building-aws-data-lake-visualizations-with-amazon-athena-and-tableau/) explains the steps in detail to build a Tableau dashboard using Athena as a data source.
 
