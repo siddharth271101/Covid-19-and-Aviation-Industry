@@ -1,0 +1,9 @@
+airflow==0.6
+beautifulsoup4==4.11.1
+certifi==2022.5.18.1
+cffi==1.15.0
+ConfigParser==5.2.0
+Cython==0.29.30
+numpy==1.22.4
+pandas==1.4.2
+pyspark==3.2.1
