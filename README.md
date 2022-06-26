@@ -85,8 +85,17 @@ Clone and cd into the project directory.
 git clone <https://github.com/siddharth271101/Covid-19-and-Aviation-Industry.git>
 cd beginner_de_project
 ```
-
 Note: Replace {your-bucket-name} in `setup.sh`, `covid_flights_etl.py` and `covid_flights_dag.py` before proceeding with the steps mentioned below.
+
+### 3. Install all the dependencies
+
+- Create a [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+- Once the virtual environment is activated, run the following command
+    
+    ``` 
+    $ pip install -r requirements.txt
+    ```
+### 4. Run `setup.sh` 
 
 Download the data and create an s3 bucket by running `setup.sh` as shown below
 
@@ -98,7 +107,7 @@ sh setup.h
 
 After `setup.sh` runs successfully, start the docker container using the following command
 
-### 3. Docker and Airflow
+### 5. Docker and Airflow
 
 ```
 docker compose -f docker-compose-LocalExecutor.yml up -d
@@ -111,7 +120,7 @@ We use the following docker containers -
 
 Open the Airflow UI by hitting [http://localhost:8080](http://localhost:8080/) in browser, start the covid_flights_dag DAG.
 
-### 4. AWS
+### 6. AWS
 
 Once the dag-run is successful, check the output folder of the S3 bucket.
 
